@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">QuoteBook</string>
+    <string-array name="quotes_array">
+        <item>"You're more of a fun vampire. You don't suck blood, you just suck.|Troy Barnes"</item>
+        <item>"Cool Beans|Rod Kimble"</item>
+        <item>"How can mirrors be real if our eyes aren't real|Jaden Smith"</item>
+        <item>"That's like me blaming owls for how bad I suck at analogies.|Britta Perry"</item>
+        <item>"I was gonna be the first person in my family to graduate from community college. Everyone else graduated from normal college|Troy Barnes"</item>
+    </string-array>
+    <string name="start_quote">"Tap screen for quotes|nasjcodes"</string>
+    <string name="end_quote">"End! Tap to begin again|nasjcodes"</string>
 </resources>
