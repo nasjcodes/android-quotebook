@@ -17,13 +17,11 @@ public class QuoteBook extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quotebook);
+        getActionBar().setTitle(R.string.title);
 
         RelativeLayout touch = findViewById(R.id.touch);
         final TextView quoteText = findViewById(R.id.quote);
         final TextView personText = findViewById(R.id.person);
-
-        //Get and set start quote
-        setQuote(getString(R.string.start_quote), quoteText, personText);
 
         //Get end quote
         final Quote endQuote = stringToQuote(getString(R.string.end_quote));
@@ -65,12 +63,6 @@ public class QuoteBook extends Activity {
         quoteText.setText(quote.getQuote());
         personText.setText(quote.getPerson());
     }
-
-    private void setQuote(String text, TextView quoteText, TextView personText) {
-        Quote quote = stringToQuote(text);
-        setQuote(quote, quoteText, personText);
-    }
-
 
     private void addQuotes(List<Quote> quoteList, String[] texts) {
 
