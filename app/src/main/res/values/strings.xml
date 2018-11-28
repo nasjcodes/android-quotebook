@@ -2,11 +2,11 @@
     <string name="app_name">QuoteBook</string>
     <string name="title">Quote Book</string>
     <string-array name="quotes_array">
-        <item>"You're more of a fun vampire. You don't suck blood, you just suck.|Troy Barnes"</item>
-        <item>"Cool Beans|Rod Kimble"</item>
-        <item>"How can mirrors be real if our eyes aren't real|Jaden Smith"</item>
-        <item>"That's like me blaming owls for how bad I suck at analogies.|Britta Perry"</item>
-        <item>"I was gonna be the first person in my family to graduate from community college. Everyone else graduated from normal college|Troy Barnes"</item>
+        <item>"Life is about making an impact, not making an income.|Kevin Kruse"</item>
+        <item>"Whatever the mind of man can conceive and believe, it can achieve.|Napoleon Hill"</item>
+        <item>"Strive not to be a success, but rather to be of value.|Albert Einstein"</item>
+        <item>"Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.|Robert Frost"</item>
+        <item>"I attribute my success to this: I never gave or took any excuse.|Florence Nightingale"</item>
     </string-array>
     <string name="start_quote">"Tap screen for quotes"</string>
     <string name="start_person">nasjcodes</string>
